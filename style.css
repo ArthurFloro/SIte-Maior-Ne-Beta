@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+/* img{
+    margin-top: 200px;
+    margin-left: 450px;
+    width: 50%;
+    height: 50%;
+} */
+
+.col{
+    margin-top: 50px;
+}
+
+.carousel-item{
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 80%;
+    height: 80%;
+}
+
+.lh-1{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.lh-sm{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}

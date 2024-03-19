@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Maior do NE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">SCFC</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.santacruzpe.com.br/">1914</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Ações
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="https://lojadosantacruz.com.br/">Loja</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="arruda.jpg" class="d-block w-50" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="titulos.jpg" class="d-block w-50" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="casa de festejo.jpg" class="d-block w-50" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="triSuper.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Tri Super</h5>
+            <p class="card-text"> O santa foi tri campeão da disputa final envolvendo o Trio de Ferro de Pernambuco: Santa Cruz, Náutico e Sport</p>
+            <a href="https://ge.globo.com/pe/futebol/times/santa-cruz/noticia/2013/12/herois-do-tri-super-se-reencontram-no-arruda-30-anos-depois-do-titulo.html" target="_blank" class="btn btn-primary">Saiba Mais</a>
+            </div>
+        </div>
+         </div>
+         
+         <div class="col">
+            <div class="card" style="width: 18rem;">
+        <img src="titulos.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Copa do NE</h5>
+         <p class="card-text"> Em 2016 o Santa se sagrou campeão Pernambucano. Superando o Campinense em 2 jogos</p>
+        <a href="https://ge.globo.com/pb/futebol/copa-do-nordeste/jogo/01-05-2016/campinense-santa-cruz/" target="_blank" class="btn btn-primary">Saiba Mais</a>
+        </div>
+        </div>
+          </div>
+
+        <div class="col">
+        <div class="card" style="width: 18rem;">
+        <img src="casa de festejo.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+         <h5 class="card-title">Tri Campeão Pernambucano</h5>
+        <p class="card-text">Em 2013 o santa se consolidou tri campeão Pernambucano em cima do seu maior rival sport, e conquistando na sua casa de festejo: ilha do retiro.</p>
+        <a href="https://ge.globo.com/pe/futebol/campeonato-pernambucano/noticia/2013/05/santa-cruz-vence-sport-por-2-0-e-e-tricampeao-estadual-na-ilha-do-retiro.html#:~:text=Essa%20superioridade%20coral%20foi%20confirmada,Ou%20melhor%3A%20tricampe%C3%A3o." target="_blank" class="btn btn-primary">Saiba Mais</a>
+        </div>
+        </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="lh-1">Criador : Arthur Floro.</p>
+     <p class="lh-sm">Torcedor do Santa Cruz .</p>
+
+
+
+      
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light mt-3 text-center">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    
+     
+
+  
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
+
